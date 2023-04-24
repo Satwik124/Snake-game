@@ -4,7 +4,7 @@ FONT = ("Courier", 24, "normal")
 
 
 class Scoreboard(Turtle):
-#inheriting from  super class
+#inheriting from  parent class using super keyword
     def __init__(self):
         super().__init__()
         self.score = 0
