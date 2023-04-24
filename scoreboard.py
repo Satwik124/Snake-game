@@ -9,9 +9,9 @@ class Scoreboard(Turtle):
         super().__init__()
         self.score = 0
         self.color("white")
-        self.penup()
+        self.penup()# it doesnot draw
         self.goto(0, 270)
-        self.hideturtle()
+        self.hideturtle()#it hides the arrow
         self.update_scoreboard()
 #updating score board
     def update_scoreboard(self):
